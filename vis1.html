@@ -1,0 +1,196 @@
+<html>
+<head></head>
+<body>
+
+<div id="pieChart"></div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.7.2/d3.min.js"></script>
+<script src="d3pie.min.js"></script>
+<script>
+var pie = new d3pie("pieChart", {
+	"header": {
+		"title": {
+			"text": "Persentase Jumlah Penjualan Berdasarkan Merk",
+			"fontSize": 30,
+			"font": "open sans"
+		},
+		"subtitle": {
+			"color": "#999999",
+			"fontSize": 12,
+			"font": "open sans"
+		},
+		"titleSubtitlePadding": 9
+	},
+	"footer": {
+		"color": "#999999",
+		"fontSize": 10,
+		"font": "open sans",
+		"location": "bottom-left"
+	},
+	"size": {
+		"canvasHeight": 600,
+		"canvasWidth": 800,
+		"pieOuterRadius": "95%"
+	},
+	"data": {
+		"sortOrder": "label-asc",
+		"content": [
+			{
+				"label": "Audi ",
+				"value": 28691,
+				"color": "#0a6097"
+			},
+			{
+				"label": "BMW ",
+				"value": 21915,
+				"color": "#207f32"
+			},
+			{
+				"label": "Citroen ",
+				"value": 129,
+				"color": "#e4a049"
+			},
+			{
+				"label": "Ford ",
+				"value": 57763,
+				"color": "#8cc0e9"
+			},
+			{
+				"label": "Honda ",
+				"value": 8197,
+				"color": "#6ada6a"
+			},
+			{
+				"label": "Hyundai ",
+				"value": 2254,
+				"color": "#bca349"
+			},
+			{
+				"label": "Kia ",
+				"value": 2882,
+				"color": "#d8d138"
+			},
+			{
+				"label": "Mercedes-Benz ",
+				"value": 9520,
+				"color": "#2081c1"
+			},
+			{
+				"label": "Mitsubishi ",
+				"value": 29118,
+				"color": "#d0743c"
+			},
+			{
+				"label": "Nissan ",
+				"value": 47229,
+				"color": "#7b6688"
+			},
+			{
+				"label": "Opel ",
+				"value": 8990,
+				"color": "#546e91"
+			},
+			{
+				"label": "Peugeot ",
+				"value": 22356,
+				"color": "#634c22"
+			},
+			{
+				"label": "Renault ",
+				"value": 2580,
+				"color": "#64a61f"
+			},
+			{
+				"label": "Saab ",
+				"value": 1025,
+				"color": "#efefef"
+			},
+			{
+				"label": "Skoda ",
+				"value": 36260,
+				"color": "#a3acb2"
+			},
+			{
+				"label": "Subaru ",
+				"value": 1713,
+				"color": "#a05c56"
+			},
+			{
+				"label": "Suzuki ",
+				"value": 5431,
+				"color": "#e98125"
+			},
+			{
+				"label": "Tesla ",
+				"value": 11096,
+				"color": "#55368f"
+			},
+			{
+				"label": "Toyota ",
+				"value": 133314,
+				"color": "#7c9058"
+			},
+			{
+				"label": "Volkswagen ",
+				"value": 169434,
+				"color": "#961818"
+			},
+			{
+				"label": "Volvo",
+				"value": 70477,
+				"color": "#44b9ae"
+			}
+		]
+	},
+	"labels": {
+		"outer": {
+			"pieDistance": 25
+		},
+		"inner": {
+			"hideWhenLessThanPercentage": 1
+		},
+		"mainLabel": {
+			"fontSize": 16
+		},
+		"percentage": {
+			"color": "#ffffff",
+			"decimalPlaces": 0
+		},
+		"value": {
+			"color": "#adadad",
+			"fontSize": 13
+		},
+		"lines": {
+			"enabled": true
+		},
+		"truncation": {
+			"enabled": true
+		}
+	},
+	"tooltips": {
+		"enabled": true,
+		"type": "placeholder",
+		"string": "{label}: {percentage}%",
+		"styles": {
+			"fadeInSpeed": 207,
+			"backgroundOpacity": 0.56
+		}
+	},
+	"effects": {
+		"pullOutSegmentOnClick": {
+			"effect": "linear",
+			"speed": 400,
+			"size": 8
+		}
+	},
+	"misc": {
+		"gradient": {
+			"enabled": true,
+			"percentage": 100
+		}
+	}
+});
+</script>
+
+</body>
+</html>

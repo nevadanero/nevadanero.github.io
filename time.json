@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Ford",
+    "show": true,
+    "color": "red",
+    "currentPopulation": 3518,
+    "history": [
+	  {
+        "year": 2007,
+		"population": 5976
+      },
+      {
+        "year": 2008,
+		"population": 7622
+      },
+      {
+        "year": 2009,
+		"population": 5878
+      },
+      {
+        "year": 2010,
+		"population": 8413
+      },
+      {
+        "year": 2011,
+		"population": 7644
+      },
+      {
+        "year": 2012,
+		"population": 6960
+      },
+      {
+        "year": 2013,
+		"population": 4594
+      },
+      {
+        "year": 2014,
+		"population": 1819
+      },
+      {
+        "year": 2015,
+		"population": 5339
+      },
+      {
+        "year": 2016,
+		"population": 3518
+      }
+    ]
+  },
+  {
+    "name": "Nissan",
+    "show": true,
+    "color": "blue",
+    "currentPopulation": 6386,
+    "history": [
+      {
+        "year": 2007,
+		"population": 333
+      },
+      {
+        "year": 2008,
+		"population": 3949
+      },
+      {
+        "year": 2009,
+		"population": 2763
+      },
+      {
+        "year": 2010,
+		"population": 3870
+      },
+      {
+        "year": 2011,
+		"population": 3570
+      },
+      {
+        "year": 2012,
+		"population": 5195
+      },
+      {
+        "year": 2013,
+		"population": 7231
+      },
+      {
+        "year": 2014,
+		"population": 7656
+      },
+      {
+        "year": 2015,
+		"population": 6276
+      },
+      {
+        "year": 2016,
+		"population": 6386
+      }
+    ]
+  },
+  {
+    "name": "Toyota",
+    "show": true,
+    "color": "green",
+    "currentPopulation": 16653,
+    "history": [
+      {
+        "year": 2007,
+		"population": 18437
+      },
+      {
+        "year": 2008,
+		"population": 12503
+      },
+      {
+        "year": 2009,
+		"population": 9984
+      },
+      {
+        "year": 2010,
+		"population": 12578
+      },
+      {
+        "year": 2011,
+		"population": 9374
+      },
+      {
+        "year": 2012,
+		"population": 12417
+      },
+      {
+        "year": 2013,
+		"population": 15145
+      },
+      {
+        "year": 2014,
+		"population": 12890
+      },
+      {
+        "year": 2015,
+		"population": 13153
+      },
+      {
+        "year": 2016,
+		"population": 16653
+      }
+    ]
+  },
+  {
+    "name": "Volkswagen",
+    "show": true,
+    "color": "purple",
+    "currentPopulation": 22535,
+    "history": [
+      {
+        "year": 2007,
+		"population": 18162
+      },
+      {
+        "year": 2008,
+		"population": 12216
+      },
+      {
+        "year": 2009,
+		"population": 11051
+      },
+      {
+        "year": 2010,
+		"population": 16118
+      },
+      {
+        "year": 2011,
+		"population": 18223
+      },
+      {
+        "year": 2012,
+		"population": 16560
+      },
+      {
+        "year": 2013,
+		"population": 14210
+      },
+      {
+        "year": 2014,
+		"population": 18285
+      },
+      {
+        "year": 2015,
+		"population": 22074
+      },
+      {
+        "year": 2016,
+		"population": 22535
+      }
+    ]
+  },
+  {
+    "name": "Volvo",
+    "show": true,
+    "color": "brown",
+    "currentPopulation": 4250,
+    "history": [
+      {
+        "year": 2007,
+		"population": 5387
+      },
+      {
+        "year": 2008,
+		"population": 3438
+      },
+      {
+        "year": 2009,
+		"population": 5789
+      },
+      {
+        "year": 2010,
+		"population": 7928
+      },
+      {
+        "year": 2011,
+		"population": 10239
+      },
+      {
+        "year": 2012,
+		"population": 10061
+      },
+      {
+        "year": 2013,
+		"population": 10290
+      },
+      {
+        "year": 2014,
+		"population": 7647
+      },
+      {
+        "year": 2015,
+		"population": 5448
+      },
+      {
+        "year": 2016,
+		"population": 4250
+      }
+    ]
+  }
+]
